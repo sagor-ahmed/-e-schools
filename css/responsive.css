@@ -3,7 +3,7 @@
 /*----------------------------------------*/
 
 /* laptop devices 1200 - 1600 */
-@media only screen and (min-width: 1200px) and (max-width: 1600px) { }
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {}
 
 
 /* large devices 992 - 1199*/
@@ -94,7 +94,9 @@
         padding-top: 200px;
     }
 
-
+    .sticky {
+        padding: 0 0 0px 0 !important;
+    }
 
 }
 
@@ -113,15 +115,25 @@
         font-size: 22px;
     }
 
-.buy-meta span {
-	display: block;
+    .buy-meta span {
+        display: block;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width: 350px){
+    
+    .links {
+    max-width: 250px;
+}
+        
 }
 
 
 
 
-
-
-
-
-}
